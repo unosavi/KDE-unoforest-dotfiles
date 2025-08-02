@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+    <kcfgfile name=""/>
+    <group name="Appearance">
+        <entry name="scale" type="Int">
+            <default>100</default>
+        </entry>
+        <entry name="layout" type="Int">
+            <label>Layout</label>
+            <default>0</default>
+        </entry>
+        <entry name="animations" type="Bool">
+            <default>False</default>
+        </entry>
+        <entry name="transparency" type="Bool">
+            <default>False</default>
+        </entry>
+        <entry name="showBorders" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="transparencyLevel" type="Int">
+            <label>Transparency level of widgets</label>
+            <default>40</default>
+        </entry>
+        <entry name="isDarkTheme" type="bool">
+            <default>false</default>
+        </entry>
+        <entry name="icon" type="String">
+            <label>The name of the icon to use for the compact representation (e.g. on a small panel).</label>
+            <default>configure</default>
+        </entry>
+        <entry name="useCustomButtonImage" type="Bool">
+            <label>Whether to use a custom image instead of an icon in the compact representation (e.g. on a small panel).</label>
+            <default>false</default>
+        </entry>
+        <entry name="customButtonImage" type="Url">
+            <label>The URL of the custtom image to use instead of an icon in the compact representation (e.g. on a small panel).</label>
+            <default></default>
+        </entry>
+        <entry name="lightTheme" type="String">
+            <label>Light Theme</label>
+            <default>BreezeLight</default>
+        </entry>
+        <entry name="darkTheme" type="String">
+            <label>Dark Theme</label>
+            <default>BreezeDark</default>
+        </entry>
+        <entry name="preferChangeGlobalTheme" type="Bool">
+            <default>False</default>
+        </entry>
+        <entry name="lightGlobalTheme" type="String">
+            <label>Light Global Theme</label>
+            <default>org.kde.breeze.desktop</default>
+        </entry>
+        <entry name="darkGlobalTheme" type="String">
+            <label>Dark Global Theme</label>
+            <default>org.kde.breezedark.desktop</default>
+        </entry>
+        
+        <!--    SHOW/HIDE Components      -->
+        <entry name="showKDEConnect" type="bool">
+            <default>true</default>
+        </entry>
+        <entry name="showNightLight" type="bool">
+            <default>true</default>
+        </entry>
+        <entry name="showColorSwitcher" type="bool">
+            <default>true</default>
+        </entry>
+        <entry name="showDnd" type="bool">
+            <default>true</default>
+        </entry>
+        <entry name="showVolume" type="bool">
+            <default>true</default>
+        </entry>
+        <entry name="showBrightness" type="bool">
+            <default>true</default>
+        </entry>
+        <entry name="showMediaPlayer" type="bool">
+            <default>true</default>
+        </entry>
+        <entry name="showAvatar" type="bool">
+            <default>true</default>
+        </entry>
+        <entry name="showBattery" type="bool">
+            <default>true</default>
+        </entry>
+        <entry name="showSessionActions" type="bool">
+            <default>true</default>
+        </entry>
+        <entry name="showScreenshot" type="bool">
+            <default>false</default>
+        </entry>
+        <entry name="showCmd1" type="bool">
+            <default>false</default>
+        </entry>
+        <entry name="showCmd2" type="bool">
+            <default>false</default>
+        </entry>
+        <entry name="showPercentage" type="bool">
+            <default>false</default>
+        </entry>
+        
+        <!--      HEHEHE GET RICKROLLED LOL        -->
+        <entry name="cmdRun1" type="string">
+            <default>xdg-open "https://shattereddisk.github.io/rickroll/rickroll.mp4"</default>
+        </entry>
+        <entry name="cmdTitle1" type="string">
+            <default>Command Button</default>
+        </entry>
+        <entry name="cmdIcon1" type="string">
+            <default>system-run-symbolic</default>
+        </entry>
+        <entry name="cmdRun2" type="string">
+            <default>xdg-open "https://bit.ly/3yCFTip"</default>
+        </entry>
+        <entry name="cmdTitle2" type="string">
+            <default>Command Button</default>
+        </entry>
+        <entry name="cmdIcon2" type="string">
+            <default>system-run-symbolic</default>
+        </entry>
+
+        <!-- Sliders properties -->
+
+        <entry name="volume_widget_flat" type="bool">
+            <default>false</default>
+        </entry>
+        <entry name="volume_widget_title" type="bool">
+            <default>true</default>
+        </entry>
+        <entry name="volume_widget_thin" type="bool">
+            <default>false</default>
+        </entry>
+        <entry name="brightness_widget_flat" type="bool">
+            <default>false</default>
+        </entry>
+        <entry name="brightness_widget_title" type="bool">
+            <default>true</default>
+        </entry>
+        <entry name="brightness_widget_thin" type="bool">
+            <default>false</default>
+        </entry>
+
+        <!-- Toggle buttons and sliders colors -->
+
+        <entry name="useSystemColorsOnToggles" type="bool">
+            <default>true</default>
+        </entry>
+        <entry name="useSystemColorsOnSliders" type="bool">
+            <default>true</default>
+        </entry>
+        <entry name="toggleButtonsColor" type="Color">
+            <label>Highlight color of toggle buttons.</label>
+            <default>#007aff</default>
+        </entry>
+        <entry name="slidersColor" type="Color">
+            <label>Highlight color of sliders.</label>
+            <default>#ffffff</default>
+        </entry>
+    </group>
+</kcfg>

@@ -1,0 +1,28 @@
+{
+  "KPackageStructure": "Plasma/LookAndFeel",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Email": "dancpontes@tutamail.com",
+        "Name": "dancp"
+      },
+      {
+        "Email": "maire.nunez@gmail.com",
+        "Name": "mrmaire"
+      },
+      {
+        "Email": "noveanrer@gmail.com",
+        "Name": "kraken-afk"
+      }
+    ],
+    "Category": "",
+    "Description": "A simple blue Arch Linux logo for Plasma Splashscreen",
+    "Id": "archsimpleblue",
+    "License": "GPLv3",
+    "Name": "archsimpleblue",
+    "Website": "https://github.com/kraken-afk/archsimpleblue-kde6"
+  },
+  "Keywords": "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;",
+  "X-Plasma-APIVersion": "2",
+  "X-Plasma-MainScript": "default"
+}

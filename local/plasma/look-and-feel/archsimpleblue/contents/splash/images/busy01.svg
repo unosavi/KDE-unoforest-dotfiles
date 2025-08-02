@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="48px"
+   height="48px"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="busy01.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1419"
+     inkscape:window-height="930"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="4.9166667"
+     inkscape:cx="0.61016949"
+     inkscape:cy="24"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <path
+     d="M24.2,47.5 C11.1,47.5 0.5,37 0.5,24 C0.5,11 11.1,0.5 24.2,0.5 C37.3,0.5 47.9,11 47.9,24 C47.9,37 37.3,47.5 24.2,47.5 Z M24.2,3.5 C12.8,3.5 3.5,12.7 3.5,24 C3.5,35.3 12.8,44.5 24.2,44.5 C35.6,44.5 44.9,35.3 44.9,24 C44.9,12.7 35.6,3.5 24.2,3.5 Z"
+     fill="#212120"
+     id="path2"
+     style="fill:#272e33;fill-opacity:1" />
+  <path
+     d="M24.2,47.5 C11.1,47.5 0.5,37 0.5,24 C0.5,23.2 1.2,22.5 2,22.5 C2.8,22.5 3.5,23.2 3.5,24 C3.5,35.3 12.8,44.5 24.2,44.5 C25,44.5 25.7,45.2 25.7,46 C25.7,46.8 25,47.5 24.2,47.5 Z"
+     fill="#1793d1"
+     id="path4"
+     style="fill:#d3c6aa;fill-opacity:1" />
+</svg>

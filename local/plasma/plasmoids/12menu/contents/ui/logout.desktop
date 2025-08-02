@@ -1,0 +1,21 @@
+[Desktop Entry]
+Comment[en_GB]=
+Comment=
+Comment[en_US]=
+Exec=qdbus6 org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.openSwitchUserDialog
+GenericName[en_GB]=logout
+GenericName=logout
+GenericName[en_US]=logout
+Icon=
+MimeType=
+Name[en_GB]=logout
+Name=logout
+Name[en_US]=logout
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=\s--noclose
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

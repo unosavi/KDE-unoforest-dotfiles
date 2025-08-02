@@ -1,0 +1,97 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "~/.config/fastfetch/profiles/trainss.png",
+    "height": 9,
+    "width": 20,
+    "padding": {
+      "top": 2,
+      "left": 0,
+      "right": 0,
+      "bottom": 1
+    }
+  },
+  "display": {
+    "separator": " "
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;83;104;91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m"
+    },
+    {
+      "type": "custom",
+      "format": "                \u001b[1m\u001b[38;2;104;123;111mSo, NVIDIA \u001b[0m        "
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;75;94;82m··········································\u001b[0m"
+    },
+    "break",
+    {
+      "type": "title",
+      "key": " \u001b[38;2;231;120;128m \u001b[0m\u001b[38;2;211;198;170mUser\u001b[0m       ",
+      "format": "{6}{7}{8}",
+      "keyWidth": 18
+    },
+    {
+      "type": "os",
+      "key": " \u001b[38;2;231;152;117m󰣇 \u001b[0m\u001b[38;2;211;198;170mOS\u001b[0m         ",
+      "keyWidth": 18,
+      "outputColor": "white"
+    },
+    {
+      "type": "kernel",
+      "key": " \u001b[38;2;127;187;179m \u001b[0m\u001b[38;2;211;198;170mKernel\u001b[0m     ",
+      "keyWidth": 18,
+      "outputColor": "white"
+    },
+    {
+      "type": "terminal",
+      "key": " \u001b[38;2;113;173;130m \u001b[0m\u001b[38;2;211;198;170mTerminal\u001b[0m   ",
+      "keyWidth": 18,
+      "outputColor": "white"
+    },
+    {
+      "type": "cpu",
+      "key": " \u001b[38;2;231;120;128m \u001b[0m\u001b[38;2;211;198;170mCPU\u001b[0m        ",
+      "keyWidth": 18,
+      "format": "{1}",
+      "outputColor": "white"
+    },
+    {
+      "type": "memory",
+      "key": " \u001b[38;2;219;188;127m \u001b[0m\u001b[38;2;211;198;170mMemory\u001b[0m     ",
+      "keyWidth": 18,
+      "outputColor": "white"
+    },
+    {
+      "type": "disk",
+      "key": " \u001b[38;2;127;187;179m \u001b[0m\u001b[38;2;211;198;170mDisk\u001b[0m       ",
+      "keyWidth": 18,
+      "format": "{1}/{2} ({3})",
+      "outputColor": "white"
+    },
+    {
+      "type": "localip",
+      "key": " \u001b[38;2;113;173;130m󰩟 \u001b[0m\u001b[38;2;211;198;170mIP\u001b[0m         ",
+      "keyWidth": 18,
+      "format": "https://www.pornhub.com",
+      "outputColor": "white"
+    },
+    "break",
+    {
+      "type": "colors",
+      "key": "                ",
+      "keyWidth": 12,
+      "symbol": "triangle",
+      "paddingLeft": 3
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;83;104;91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m"
+    },
+    "break"
+  ]
+}

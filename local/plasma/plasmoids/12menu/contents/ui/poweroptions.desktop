@@ -1,0 +1,21 @@
+[Desktop Entry]
+Comment[en_GB]=
+Comment=
+Comment[en_US]=
+Exec=qdbus6 org.kde.LogoutPrompt /LogoutPrompt promptAll
+GenericName[en_GB]=poweroptions
+GenericName=poweroptions
+GenericName[en_US]=poweroptions
+Icon=
+MimeType=
+Name[en_GB]=poweroptions
+Name=poweroptions
+Name[en_US]=poweroptions
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=\s--noclose
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

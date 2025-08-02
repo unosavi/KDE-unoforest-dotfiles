@@ -1,0 +1,104 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+[╭─](fg:#4a6a5a)\
+[](fg:#1a2a2a)\
+$os\
+$username\
+[](bg:#1a2a2a fg:#1a2a2a)\
+$directory\
+[](fg:#1a2a2a bg:#2a443a)\
+$git_branch\
+$git_status\
+[](fg:#2a443a bg:#3a5a4a)\
+$nodejs\
+[](fg:#3a5a4a bg:#4a6a5a)\
+$docker_context\
+[](fg:#4a6a5a)\
+$fill\
+[](fg:#1a2a2a)\
+$time\
+[](fg:#1a2a2a)\
+$line_break\
+[╰─](fg:#4a6a5a)\
+$character
+"""
+
+# Disable the blank line at the start of the prompt
+add_newline = false
+
+[character]
+success_symbol = "[❱](bold fg:#5faf5f)"
+error_symbol = "[𜱺](bold fg:#e67e80)"
+vimcmd_symbol = "[𜱸](bold fg:#7fbbb3)"
+
+[username]
+show_always = true
+style_user = "fg:#d3c6aa bg:#1a2a2a"
+style_root = "fg:#e67e80 bg:#1a2a2a"
+format = '[ $user ]($style)'
+disabled = false
+
+[os]
+style = "fg:#d3c6aa bg:#1a2a2a"
+format = "[ $symbol ]($style)"
+disabled = false
+
+[os.symbols]
+Arch = "󰣇"
+Ubuntu = "󰕈"
+Macos = "󰀵"
+Windows = "󰍲"
+
+[directory]
+style = "fg:#d3c6aa bg:#1a2a2a"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[git_branch]
+symbol = ""
+style = "fg:#1a2a2a bg:#2a443a"
+format = '[ $symbol $branch ]($style)'
+
+[git_status]
+style = "fg:#1a2a2a bg:#2a443a"
+format = '[$all_status$ahead_behind ]($style)'
+conflicted = "​"
+ahead = "​"
+behind = "​"
+diverged = "​"
+up_to_date = "​"
+untracked = "​"
+stashed = "≡"
+modified = "​"
+staged = "​"
+renamed = "​"
+deleted = "​"
+
+[nodejs]
+symbol = ""
+style = "fg:#1a2a2a bg:#3a5a4a"
+format = '[ $symbol ($version) ]($style)'
+
+[docker_context]
+symbol = ""
+style = "fg:#1a2a2a bg:#4a6a5a"
+format = '[ $symbol $context ]($style)'
+
+[time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+style = "fg:#d3c6aa bg:#1a2a2a"
+format = '[  $time ]($style)'
+
+[fill]
+symbol = " "
+style = "fg:#2a3a3a"

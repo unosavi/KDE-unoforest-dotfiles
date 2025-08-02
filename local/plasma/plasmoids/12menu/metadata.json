@@ -1,0 +1,24 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                 "Email": "claudemods101@gmail.com",
+                "Name": "aaron dsouza"
+            }
+        ],
+        "BugReportUrl": "https://bugs.kde.org/enter_bug.cgi?product=plasmashell&component=Application%20Menu%20(Kicker)",
+        "Category": "Application Launchers",
+        "Description": "Configurable grid of application icons.",
+        "EnabledByDefault": true,
+        "Icon": "start-here-kde",
+        "Id": "12menu",
+        "License": "GPL-2.0+",
+        "Name": "12menu",
+        "Website": "https://kde.org/plasma-desktop"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.launchermenu"
+    ]
+}

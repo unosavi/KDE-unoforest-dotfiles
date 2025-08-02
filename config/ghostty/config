@@ -1,0 +1,62 @@
+font-family = D2CodingLigature Nerd Font
+font-size = 14
+background-opacity = 0.85
+background-blur = 50
+window-padding-x = 14
+window-padding-y = 14
+adjust-underline-position = 8
+adjust-underline-thickness = 2
+alpha-blending = linear-corrected
+auto-update-channel = tip
+cursor-invert-fg-bg = true
+font-thicken = true
+mouse-hide-while-typing = true
+unfocused-split-fill = #000000
+palette = 0=#273337
+palette = 1=#e67e80
+palette = 2=#a7c080
+palette = 3=#dbbc7f
+palette = 4=#7fbbb3
+palette = 5=#d699b6
+palette = 6=#83c092
+palette = 7=#d3c6aa
+palette = 8=#5a6470
+palette = 9=#e67e80
+palette = 10=#a7c080
+palette = 11=#dbbc7f
+palette = 12=#7fbbb3
+palette = 13=#d699b6
+palette = 14=#83c092
+palette = 15=#d3c6aa
+foreground = #d3c6aa
+background = #273337
+selection-foreground = #d3c6aa
+selection-background = #566b65
+
+# 스크롤백 기능 활성화 (100MB)
+scrollback-limit = 104857600
+
+# 폰트 렌더링 개선
+font-feature = +liga, +calt, +dlig
+adjust-cell-width = 1
+adjust-cell-height = 1
+adjust-font-baseline = 1
+
+# 커서 개선
+cursor-style = block
+cursor-style-blink = true
+cursor-opacity = 0.8
+
+# 선택 영역 개선
+selection-foreground = #273337
+selection-background = #d3c6aa
+
+# 렌더링 성능 최적화
+window-vsync = true
+
+# 마우스 휠 스크롤 개선
+mouse-scroll-multiplier = 3.0
+
+# 추가 시각적 개선
+window-padding-balance = true
+window-padding-color = extend

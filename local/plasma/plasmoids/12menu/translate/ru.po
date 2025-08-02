@@ -1,0 +1,183 @@
+# Translation of dittomenu in pl
+# Copyright (C) 2022
+# This file is distributed under the same license as the dittomenu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR..
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: dittomenu\n"
+"Report-Msgid-Bugs-To: https://store.kde.org/p/1312669/\n"
+"POT-Creation-Date: 2023-05-01 16:59-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Edward Karate <edward.karate@ya.ru>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../metadata.desktop
+msgid "Ditto Menu"
+msgstr "Ditto Menu"
+
+#: ../metadata.desktop
+msgid "A configurable launcher menu"
+msgstr "Настраиваемое меню приложений"
+
+#: ../contents/code/tools.js
+msgid "Remove from Favorites"
+msgstr "Убрать из избранного"
+
+#: ../contents/code/tools.js
+msgid "Add to Favorites"
+msgstr "Добавить в избранное"
+
+#: ../contents/code/tools.js
+msgid "On All Activities"
+msgstr "По всем видам деятельности"
+
+#: ../contents/code/tools.js
+msgid "On The Current Activity"
+msgstr "О текущей деятельности"
+
+#: ../contents/code/tools.js
+msgid "Show In Favorites"
+msgstr "Показать в Избранном"
+
+#: ../contents/config/config.qml
+msgid "General"
+msgstr "Общие"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Icon:"
+msgstr "Значок"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Выбрать..."
+
+#: ../contents/ui/ConfigGeneral.qml
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Очистить значок"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show favorites first"
+msgstr "Сначала показать избранное"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Menu position"
+msgstr "Положение меню"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Default"
+msgstr "По умолчанию"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Center"
+msgstr "Центр"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Center bottom"
+msgstr "Снизу по центру"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show labels in two lines"
+msgstr "Отображать метки в две строки"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Number of columns"
+msgstr "Количество колонок"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Number of rows"
+msgstr "Количество строк"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Unhide all hidden applications"
+msgstr "Показать все скрытые приложения"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Unhidden!"
+msgstr "Показаны!"
+
+#: ../contents/ui/main.qml
+msgid "Edit Applications..."
+msgstr "Редактировать меню..."
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "System Preferences"
+msgstr "Параметры системы"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "User Home"
+msgstr "Домашняя папка"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Lock Screen"
+msgstr "Заблокировать"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Leave ..."
+msgstr "Выход ..."
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Hi, "
+msgstr "Привет, "
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Type here to search ..."
+msgstr "Введите текст для поиска..."
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Favorites"
+msgstr "Избранное"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "All apps"
+msgstr "Все приложения"
+
+#~ msgctxt "@action"
+#~ msgid "Lock Screen"
+#~ msgstr "Заблокировать"
+
+#~ msgid "Behavior"
+#~ msgstr "Поведение"
+
+#~ msgid "Show applications as:"
+#~ msgstr "Показывать приложения в виде:"
+
+#~ msgid "Name only"
+#~ msgstr "Только имя"
+
+#~ msgid "Description only"
+#~ msgstr "Только описание"
+
+#~ msgid "Name (Description)"
+#~ msgstr "Имя (Описание)"
+
+#~ msgid "Description (Name)"
+#~ msgstr "Описание (Имя)"
+
+#~ msgid "Menu position:"
+#~ msgstr "Позиция меню"
+
+#~ msgid "Search"
+#~ msgstr "Поиск"
+
+#~ msgid "Expand search to bookmarks, files and emails"
+#~ msgstr "Расширить поиск по закладкам, файлам и почте"
+
+#~ msgid "Show user icon"
+#~ msgstr "Показать иконку пользователя"
+
+#~ msgid "Grid"
+#~ msgstr "Сетка"
+
+#~ msgid "Number of columns in grid"
+#~ msgstr "Количество колонок в сетке"
+
+#~ msgid "Number of rows in grid"
+#~ msgstr "Количество строк в сетке"
