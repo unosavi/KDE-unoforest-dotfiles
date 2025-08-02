@@ -1,3 +1,7 @@
+**Languages:** [🇰🇷 한국어](./README_ko.md) | [🇺🇸 English](./README.md)
+
+---
+
 # KDE Dotfiles (Plasma 6) — Setup Guide
 
 This repository contains user-level KDE/Plasma configuration assets and custom packages. It is curated to be safe to share publicly by avoiding sensitive materials (pairing keys, tokens, caches). Follow this guide to reproduce the environment on a new machine.
